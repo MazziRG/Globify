@@ -23,7 +23,7 @@ relative z-3@ py-5"
           </Link>
         ))}
       </ul>
-      <div>
+      <div className="lg:flexCenter hidden">
         <Button
           type="button"
           title="Login"
@@ -31,6 +31,14 @@ relative z-3@ py-5"
           variant="btn_dark_green"
         />
       </div>
+
+      <Image
+        src="menu.svg"
+        alt="menu"
+        width={32}
+        height={34}
+        className="inline-block cursor-pointer lg:hidden"
+      />
     </nav>
   );
 };
